@@ -1,0 +1,31 @@
+* {
+    color: #ececec;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    /* 👈 add kiya */
+}
+
+html,
+body,
+#root {
+    /* 👈 naya block add kiya */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* poore page ka scroll band */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-color: #212121;
+    display: flex;
+    height: 100vh;
+    /* 👈 add kiya */
+    width: 100%;
+    /* 👈 add kiya */
+}
